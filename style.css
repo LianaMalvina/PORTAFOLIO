@@ -35,12 +35,7 @@ box-shadow: 0 0 10px rgb(137, 151, 172);background:-moz-linear-gradient(linear, 
 from(#65b6cf),to(#2c2c2c));}
 
 
-/*-----------------QUERIES SOBRE NAV------------------------------------------------------------------*/
-
-
-
 /*----------------MAIN----------------------------------------------------------------------------------*/
-/*NO PUEDO HACER QUE EL MAÍN QUEDE CENTRADO O COMPRIMIDO con margen a la izquierda*/
 
 .cab{margin-top: 1px; justify-content:space-between; align-items: center;}
 
@@ -90,10 +85,11 @@ img{border-radius: 10px; margin-bottom: 140px; box-shadow:  0 0 30px rgb(137, 15
 /*--------------------------------------QUERIES SOBRE EL MAIN-----------------------------------------*/
 
 @media screen and (max-width:768px){ .cab {flex-direction: column; align-items: center; flex-wrap: wrap;
-width:7px;} }
+width:7px;} .cabs{ flex-wrap: wrap;}
 .foto{margin-top: 150px; width: 40px; justify-content: center; margin-right: 150px;} 
 
 .izquierdo{ text-align: justify; width: 600px;justify-content: center;text-align: center;} 
+
 .parrafo .primer{text-align: justify;}
 
 
@@ -253,7 +249,7 @@ margin: 10px 0px;}
 ; border-radius: 2px; font-size: 11px; box-sizing: content-box;
 }
     .andss{margin-top: 30px;text-align: left;font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;}
+            font-size: 13px;}
 
 
 
